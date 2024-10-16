@@ -1,0 +1,70 @@
+:root {
+    --cor-principal: #f35438; 
+    --cor-secundaria: #42e73c; 
+}
+
+
+body {
+    font-family: "Playfair Display", serif;
+}
+
+.navbar {
+    background-color:#f35438;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color:#f35438;    
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;        
+}
+
+.navbar-toggler {
+    background-color: #ffeae6;
+}
+
+.section-title {
+    font-family: "Dancing Script", cursive;
+}
+
+#sobre-o-restaurante, #cardapio {
+    background-color: #ffeae6;
+}
+
+.text-colored {
+    color: #f35438;
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
+    background-color: #f35438;
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: #f35438;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;        
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        width: 280px;
+    }
+
+    .nav-link {
+        padding: 5px;
+    }
+}
